@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1549646640793077970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549646640793077980}
+  - component: {fileID: 1549646640793077981}
+  m_Layer: 0
+  m_Name: World
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549646640793077980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549646640793077970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1549646640793077981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549646640793077970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a8b70da2070bc45804b43f381066e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 32
+  height: 32
+  xOrg: 25
+  yOrg: 25
+  scale: 5.5
+  seed: 
+  genBiomes:
+  - type: 0
+    tile: {fileID: 7750669801381732968, guid: 45b7597711077af4d924ea2fd3a8ccd5, type: 3}
+    material: {fileID: 2100000, guid: 1c0e5edcf46e9eb49928cbf4a379df25, type: 2}
+    minElevation: 0
+    maxElevation: 0
+  - type: 1
+    tile: {fileID: 7109276015520671563, guid: e0ee2d0697375bc48bceb034372658ca, type: 3}
+    material: {fileID: 2100000, guid: d7794650ddbd13644b453c11d92da270, type: 2}
+    minElevation: 0
+    maxElevation: 0.4
+  - type: 2
+    tile: {fileID: 7458555524965690663, guid: 1e84ba482f2c3334ebce59489eb1c787, type: 3}
+    material: {fileID: 2100000, guid: dfec0da41d33414429fd5c74e70897f4, type: 2}
+    minElevation: 0.4
+    maxElevation: 1
+  localBiomes:
+  - type: 3
+    tile: {fileID: 7219246835697390668, guid: 9f9290b2b7f8e82438096766a8c8ae9a, type: 3}
+    material: {fileID: 2100000, guid: 5b6708818d4e7774bbe166e037133214, type: 2}
+    minZones: 1
+    maxZones: 3
+    zoneSize: 5
+  - type: 4
+    tile: {fileID: 3445380053426685156, guid: 207f0ea6462d1fe4abd43aa17ddc43fc, type: 3}
+    material: {fileID: 2100000, guid: 2536dfdf1ed212d41b3d2ee6011064da, type: 2}
+    minZones: 1
+    maxZones: 3
+    zoneSize: 5
+  widthField: {fileID: 0}
+  heightField: {fileID: 0}
+  seedField: {fileID: 0}
